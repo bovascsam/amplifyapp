@@ -4,6 +4,11 @@
   "private": true,
   "dependencies": {
     "@aws-amplify/ui-react": "^1.2.5",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "@fluentui/react": "^8.48.1",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.2.5",
     "@mui/material": "^5.2.5",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
