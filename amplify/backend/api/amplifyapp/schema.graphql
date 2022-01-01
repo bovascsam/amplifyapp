@@ -4,3 +4,20 @@ type Note @model {
   description: String
   image:String
 }
+type Category @model{
+  id:ID!
+  name:String
+}
+type Language @model{
+  id:ID!
+  name:String
+}
+type Master @model{
+  id:ID!
+  CategoryId:ID
+  Title:String
+  Language:String
+  Image:String
+  Video:String
+  description:String
+}
